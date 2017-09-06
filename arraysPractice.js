@@ -5,7 +5,9 @@ var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
   //Code Here
-
+var first = (arr) => {
+return arr[0];
+}
 
 //Next problem
 
@@ -16,16 +18,20 @@ var arr = [40,50,60];
 
 
   //Code Here
+var last = (arr) => {
+  return arr.length -1;
+}
 
-
-//Next Problem
+//Next Problem =
 
 
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
 
   //Code Here
-
+var looper = (family) => {
+  alert(family.filter(family));
+};
 
 //Next problem
 
@@ -35,6 +41,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
 
   //Code Here
+  var reversedLooper = (letters) => {
+    alert(letters.filter(letters,letters.length -1))
+  };
 
 
 //Next Problem
@@ -118,7 +127,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 
 //Next Problem
-
+ 
 
 
 //Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns the array.
